@@ -12,6 +12,6 @@ module purge
 export LD_LIBRARY_PATH=./../anaconda3/lib/:$LD_LIBRARY_PATH
 source /scratch/yc6317/anaconda3/etc/profile.d/conda.sh
 conda activate egopat3d
-python ./train_two.py --data_path ./dataset
-# python ./test_two.py --data_path ./dataset.hdf5 --model_name two --checkpoint ./LSTM
+python ./train_two.py --data_path ./Dataset
+# python ./test_two.py --data_path ./Dataset --model_name two --checkpoint ./LSTM
 # python ./eval.py --data_path ./Dataset --model_name two
